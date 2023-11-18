@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Tourney";
+  src: url("../fonts/Tourney.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
 body {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .board {
@@ -9,6 +19,7 @@ body {
   gap: 3px;
   justify-content: center;
   cursor: url('../img/hammer.png'), pointer;
+
   }
 
 .cell {
@@ -26,4 +37,7 @@ body {
 
 .counter {
   color: white;
+  margin-bottom: 30px;
+  font-family: "Tourney", Tahoma, sans-serif;
+  font-size: 30px;
 }
