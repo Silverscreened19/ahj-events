@@ -51,6 +51,9 @@ export default class Board {
     if (e.target.className === 'cell cell_active') {
       this.gameState.score += 1;
       this.showScore();
+      this.deleteActiveClass();
+      clearInterval(this.interval);
+      this.moveGoblin();
     } else {
       this.gameState.miss += 1;
       this.showMiss();
