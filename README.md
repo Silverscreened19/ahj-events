@@ -1,4 +1,5 @@
 # Домашнее задание к занятию "3.Обработка событий"
+![CI](https://github.com/silverscreened19/ahj-events/actions/workflows/web.yml/badge.svg)
 
 Правила сдачи задания:
 
