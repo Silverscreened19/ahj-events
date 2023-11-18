@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+.board {
+  width: 410px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 3px;
+  justify-content: center;
+  cursor: url('../img/hammer.png'), pointer;
+  }
+
+.cell {
+  border: 3px solid green;
+  height: 100px;
+}
+
+.cell_active {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('../img/goblin.png');
+  border: 3px solid green;
+}
+
+.counter {
+  color: white;
+}
