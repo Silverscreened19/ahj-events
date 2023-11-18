@@ -19,12 +19,12 @@ body {
   gap: 3px;
   justify-content: center;
   cursor: url('../img/hammer.png'), pointer;
-
   }
 
 .cell {
-  border: 3px solid green;
+  border: 3px ridge whitesmoke;
   height: 100px;
+  border-radius: 10%;
 }
 
 .cell_active {
@@ -32,11 +32,10 @@ body {
   background-position: center;
   background-size: contain;
   background-image: url('../img/goblin.png');
-  border: 3px solid green;
 }
 
 .counter {
-  color: white;
+  color: whitesmoke;
   margin-bottom: 30px;
   font-family: "Tourney", Tahoma, sans-serif;
   font-size: 30px;
